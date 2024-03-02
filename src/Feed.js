@@ -63,10 +63,14 @@ function Feed() {
           message={message}
           photoUrl={photoUrl} />
         })}
-        {/* <Post 
+        <Post 
         name="name" 
         description="this is a test"
-        message="this works" /> */}
+        message="this works" />
+        <Post 
+        name="Vishakha jain" 
+        description="React Js developer"
+        message="This is my LinkedIn cone project hope you like it✨"/>
     </div>
   )
 }
